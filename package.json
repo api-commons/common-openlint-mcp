@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "A Model Context Protocol (MCP) server for Spotlight — lint API artifacts and work with rulesets from any AI client. Runs the @spotlight-rules engine.",
   "type": "module",
-  "bin": { "spotlight-mcp": "src/server.mjs" },
-  "scripts": { "start": "node src/server.mjs" },
+  "bin": {
+    "spotlight-mcp": "src/server.mjs"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node test/smoke.mjs"
+  },
   "license": "Apache-2.0",
   "repository": "github:api-commons/spotlight-mcp",
   "dependencies": {
