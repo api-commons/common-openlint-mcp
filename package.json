@@ -20,6 +20,6 @@
     "@spotlight-rules/spotlight-parsers": "^1.1.0",
     "@spotlight-rules/spotlight-rulesets": "^1.1.0",
     "yaml": "^2.6.1",
-    "zod": "^3.23.8"
+    "zod": "^4.5.4"
   }
 }
