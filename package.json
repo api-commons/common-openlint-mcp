@@ -13,7 +13,7 @@
   "license": "Apache-2.0",
   "repository": "github:api-commons/spotlight-mcp",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "@spotlight-rules/spotlight-core": "^1.1.0",
     "@spotlight-rules/spotlight-formats": "^1.1.0",
     "@spotlight-rules/spotlight-functions": "^1.1.0",
