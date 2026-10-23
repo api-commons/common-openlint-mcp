@@ -19,7 +19,7 @@ server.tool(
   {
     content: z.string().describe('The API artifact as a YAML or JSON string.'),
     format: z.enum(FORMAT_ENUM).optional().describe('Artifact format; selects the default ruleset when none is given.'),
-    ruleset: z.any().optional().describe('A ruleset alias ("spectral:oas"; the deprecated "spotlight:*" aliases are still accepted) or a ruleset definition object. Defaults to the built-in ruleset for the format.'),
+    ruleset: z.any().optional().describe('A ruleset alias ("spectral:oas") or a ruleset definition object. Defaults to the built-in ruleset for the format.'),
   },
   async ({ content, format, ruleset }) => {
     try {

@@ -15,9 +15,6 @@ with rulesets conversationally. It runs the `@openlint/*` engine (the same one b
 | `list_formats` | The artifact formats the OpenLint engine can lint |
 | `validate_ruleset` | Structurally validate a ruleset (alias, object, or YAML/JSON string) |
 
-The old `spotlight:oas`, `spotlight:asyncapi` and `spotlight:arazzo` aliases are still
-accepted as deprecated aliases for the `spectral:*` names.
-
 ## Use it
 
 ```bash
