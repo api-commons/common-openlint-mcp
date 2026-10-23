@@ -20,6 +20,6 @@
     "@openlint/openlint-parsers": "^1.0.0",
     "@openlint/openlint-rulesets": "^0.0.1",
     "yaml": "^2.6.1",
-    "zod": "^3.23.8"
+    "zod": "^4.6.7"
   }
 }
